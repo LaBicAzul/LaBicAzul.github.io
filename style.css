@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    background-color: gainsboro;
+    
+}
+
+
+h1{
+    font-size: 2.2rem;
+    font-family:'Trebuchet MS', sans-serif;
+}
+
+.header-p{
+    font-size: 1.2rem;
+}
+
+h1, p{
+    text-align: center;
+}
+
+#image{
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption{
+    display:block;
+    text-align: center;
+}
+
+
+#tribute-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 90px;
+    font-size: 1.2rem;
+}
+
+
+#tribute-info > h3{
+    
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+#tribute-info > ul{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+#tribute-info > ul > li{
+    margin: 20px auto;
+    line-height: 1.5rem;
+    width:50%;
+}
+
+#cita{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#cita > p{
+    margin: 0 auto 10px;
+    width: 100%;
+    display: block;
+}
+
+p{
+    font-style: italic;
+    
+}
+
+.wiki > a{
+    text-decoration: none; 
+}
+
+.wiki > a:visited{
+    color: darkslategrey;
+}
