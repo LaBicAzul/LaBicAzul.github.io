@@ -7,7 +7,7 @@
 
 h1{
     font-size: 2.2rem;
-    font-family:'Trebuchet MS', sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif, 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, Arial, sans-serif
 }
 
 .header-p{
@@ -56,7 +56,7 @@ h1, p{
 #tribute-info > ul > li{
     margin: 20px auto;
     line-height: 1.5rem;
-    width:50%;
+    width:60%;
 }
 
 #cita{
@@ -82,4 +82,40 @@ p{
 
 .wiki > a:visited{
     color: darkslategrey;
+}
+
+/*-------------------------------
+---------------------------------
+-------------------------------*/
+
+
+@media screen and (min-width:321px) and (max-width:426px){
+    
+    #image{
+        width: 300px;    
+    }
+
+    #tribute-info > ul > li{
+        margin: 20px auto;
+        line-height: 1.5rem;
+        width:80%;
+    }
+}
+
+@media screen and (max-width:320px){
+
+    figure{
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    #image{
+        width: 250px;
+    }
+
+    #tribute-info > ul > li{
+        margin: 20px auto;
+        line-height: 1.5rem;
+        width:80%;
+    }
 }
